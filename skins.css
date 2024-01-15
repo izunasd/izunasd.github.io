@@ -5,7 +5,7 @@ body {
 
 div {   
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 20px;
 }
 
@@ -24,7 +24,7 @@ td:last-child {
 }
 
 a {
-    color: gray;
+    color: #666666;
     text-decoration: none;
     cursor: pointer;
 }
