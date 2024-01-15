@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;  
+    background-color: #000000; /* #111111 */
 }
 
 div {
@@ -8,5 +8,5 @@ div {
 }
 
 a {
-    color: black; /* gray */
+    color: gray;
   }
