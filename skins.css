@@ -1,12 +1,28 @@
 body {
-    background-color: #000000; /* #111111 */
+    background-color: #111111;
+    margin: 0;
 }
 
-div {
+div {   
     text-align: center;
     color: #ffffff;
+    padding: 20px;
+}
+
+table {
+    text-align: left;
+    margin: 20px auto;
+}
+
+td {
+    padding-right: 75px;
+    padding-bottom: 30px;
+}
+
+td:last-child {
+    padding-right: 0;
 }
 
 a {
     color: gray;
-  }
+}
