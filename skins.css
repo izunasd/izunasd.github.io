@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-div {   
+div {
     text-align: center;
     color: #FFFFFF;
     padding: 20px;
@@ -11,11 +11,38 @@ div {
 
 .title {
     font-family: sans-serif;
-    padding: 0px;
+    padding: 0;
 }
 
 .prof {
-    padding: 0px;
+    padding: 0;
+}
+
+details {
+    text-align: center;
+    margin: 0 auto;
+    width: 4;
+    padding-bottom: 0;
+}
+
+summary {
+    margin: 0 auto;
+    width: 0;
+    display: block;
+    cursor: pointer;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+.setup {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 span {
@@ -29,18 +56,18 @@ span {
 table {
     text-align: left;
     margin: 50px auto;
-    padding: 0px;
+    padding: 0;
     font-size: 24px;
     border-collapse: collapse;
 }
 
 th {
-    line-height: 0px;
+    line-height: 0;
 }
 
 td {
     padding-right: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 td:last-child {
@@ -57,3 +84,5 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* 誰かまともなcssの書き方教えてください(；′⌒`) */
